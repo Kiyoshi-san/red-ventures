@@ -6,3 +6,4 @@ npm i
 STARTING THE PROJECT
 Open the terminal and run:
 npm start
+Click at Open Brower Pane
