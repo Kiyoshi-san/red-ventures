@@ -222,6 +222,11 @@
                     justify-content: center;
                 }
                 .products-list-container {
+                    .picks-title {
+                        h2 {
+                            font-size: rem-calc(40);
+                        }
+                    }
                     .product-tile-container {
                         display: flex;
                         overflow-x: auto;
