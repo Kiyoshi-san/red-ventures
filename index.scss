@@ -208,7 +208,7 @@
         }
     }
 
-    @media(max-width: map-get($breakpoints, medium)) {
+    @media(min-width: map-get($breakpoints, medium)) {
         .results-container {
             .wrapper {
                 .products-list-container {
