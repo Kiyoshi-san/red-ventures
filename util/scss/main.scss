@@ -1,0 +1,51 @@
+@import "./util/scss/foundation/util.scss";
+
+body, * {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    @include Montserrat();
+}
+
+*:focus {
+    outline: none;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    @media(min-width: map-get($breakpoints, large)) {
+        max-width: rem-calc(855);
+    }
+    @media(max-width: map-get($breakpoints, large)) {
+        width: 80%;
+        padding: rem-calc(35);
+    }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.hide-for-small {
+  @media(max-width: map-get($breakpoints, large)) {
+    display: none;
+  }
+}
+
+.show-for-small-only {
+  @media(min-width: map-get($breakpoints, large)) {
+    display: none;
+  }
+}
+
+strong {
+    font-weight: 800;
+}
