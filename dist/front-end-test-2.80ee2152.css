@@ -60,7 +60,7 @@ strong {
   padding: 7% 0;
   justify-content: center;
   width: 100%;
-  background-size: contain;
+  background-size: cover;
 }
 .page-greenthumb .banner-green-container .wrapper img.logo {
   margin-bottom: 4%;
