@@ -98,7 +98,6 @@
                 .picks-title {
                     margin-bottom: rem-calc(54);
                     h2 {
-                        font-size: rem-calc(55);
                         color: map-get($foundation-palette, black);
                     }
                 }
@@ -202,6 +201,20 @@
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media(max-width: map-get($breakpoints, medium)) {
+        .results-container {
+            .wrapper {
+                .products-list-container {
+                    .picks-title {
+                        h2 {
+                            font-size: rem-calc(55);
                         }
                     }
                 }

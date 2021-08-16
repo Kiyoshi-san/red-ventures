@@ -144,7 +144,6 @@ strong {
   margin-bottom: 3.375rem;
 }
 .page-greenthumb .results-container .wrapper .products-list-container .picks-title h2 {
-  font-size: 3.4375rem;
   color: #0C261C;
 }
 .page-greenthumb .results-container .wrapper .products-list-container .product-tile-container {
@@ -245,6 +244,11 @@ strong {
 }
 .page-greenthumb .results-container .wrapper .products-list-container .product-tile-container .product-tile-box.staff-favorite .column-container .attributes .icons-container img {
   height: 1.625rem;
+}
+@media (max-width: 960px) {
+  .page-greenthumb .results-container .wrapper .products-list-container .picks-title h2 {
+    font-size: 3.4375rem;
+  }
 }
 @media (max-width: 960px) {
   .page-greenthumb .banner-green-container {
