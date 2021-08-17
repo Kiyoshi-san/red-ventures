@@ -205,6 +205,24 @@
                     }
                 }
             }
+            .back-to-top {
+                display: flex;
+                margin-top: rem-calc(32);
+                gap: rem-calc(17);
+                justify-content: center;
+                border: 1px solid map-get($foundation-palette, primary);
+                border-radius: 30px;
+                padding: rem-calc(15) rem-calc(83);
+                cursor: pointer;
+                .text {
+                    span {
+                        line-height: 1.6;
+                        font-size: rem-calc(16);
+                        font-weight: 300;
+                        color: map-get($foundation-palette, green-text);
+                    }
+                }
+            }
         }
     }
 

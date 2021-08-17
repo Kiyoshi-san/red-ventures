@@ -245,6 +245,22 @@ strong {
 .page-greenthumb .results-container .wrapper .products-list-container .product-tile-container .product-tile-box.staff-favorite .column-container .attributes .icons-container img {
   height: 1.625rem;
 }
+.page-greenthumb .results-container .wrapper .back-to-top {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1.0625rem;
+  justify-content: center;
+  border: 1px solid #15573F;
+  border-radius: 30px;
+  padding: 0.9375rem 5.1875rem;
+  cursor: pointer;
+}
+.page-greenthumb .results-container .wrapper .back-to-top .text span {
+  line-height: 1.6;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #196146;
+}
 @media (min-width: 960px) {
   .page-greenthumb .results-container .wrapper .products-list-container .picks-title h2 {
     font-size: 3.4375rem;
