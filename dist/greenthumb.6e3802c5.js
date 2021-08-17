@@ -226,18 +226,17 @@ var page = {
         domElement.classList.add('product-tile-container');
         domElement.innerHTML = template;
         document.querySelectorAll('.results-container .wrapper .products-list-container')[0].insertBefore(domElement, null);
-        document.querySelectorAll(".back-to-top")[0].classList.remove("hidden");
-      } else {
-        document.querySelectorAll(".back-to-top")[0].classList.add("hidden");
       }
     },
     noResult: function noResult(isNoResult) {
       if (isNoResult) {
         document.querySelectorAll(".no-results-container")[0].classList.remove('hidden');
         document.querySelectorAll(".products-list-container")[0].classList.add('hidden');
+        document.querySelectorAll(".back-to-top")[0].classList.add("hidden");
       } else {
         document.querySelectorAll(".no-results-container")[0].classList.add('hidden');
         document.querySelectorAll(".products-list-container")[0].classList.remove('hidden');
+        document.querySelectorAll(".back-to-top")[0].classList.remove("hidden");
       }
     },
     scrollTop: function scrollTop() {

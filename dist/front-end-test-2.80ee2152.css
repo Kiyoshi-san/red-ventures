@@ -252,7 +252,7 @@ strong {
   justify-content: center;
   border: 1px solid #15573F;
   border-radius: 30px;
-  padding: 0.9375rem 5.1875rem;
+  padding: 0.9375rem;
   cursor: pointer;
 }
 .page-greenthumb .results-container .wrapper .back-to-top .text span {
